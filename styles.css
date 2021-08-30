@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+html {
+    background-color: black;
+}
+
+p {
+    color: red;
+    font-family: fantasy;
+}
+
+.body {
+    color: black;
+    background-color: black;
+}
+
+#game {
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid blue;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: black;
+    color: black;
+}
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 300px;
+    z-index: 1000000;
+}
+
+.display-4 {
+    color: darkred;
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+
+.jumbotron {
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    display: center;
+}
+
+.block {
+    width: 995px;
+    height: 20px;
+    background-color:blue;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.hole {
+    width: 30px;
+    height: 20px;
+    background-color:black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
